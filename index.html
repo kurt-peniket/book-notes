@@ -1,20 +1,23 @@
 <html>
     <head>
         <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <title>Book Notes</title>
     </head>
     <body>
-        <h2>Book Title</h2>
+        <h2>Book Notes</h2>
             <form class="inputBox" id="form">
-                <input type="text" placeholder="Book Title" id="bookTitle" autocomplete="off">
-                <textarea name="notes" id="notes" placeholder="Notes..."></textarea>
+                <input type="text" placeholder="Book Title" id="bookTitle" autocomplete="off" required>
+                <textarea name="notes" id="notes" placeholder="Notes..." required></textarea>
                 <br>
-                <button id="btn">Submit</button>
+                <button id="submit">Submit</button>
             </form>    
             <section id="entries">
-                <h3 id="heading"></h3>
-                <p></p>
+                
+                <!-- New DOM content here -->
+            
             </section>
-            <script src="index.js"></script>
+            <script src="jquery-index.js"></script>
         </body>
 </html>
